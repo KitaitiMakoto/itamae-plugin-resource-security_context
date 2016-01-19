@@ -14,11 +14,12 @@
 # You should have received a copy of the GNU Lesser General Public License
 # along with itamae-plugin-resource-security_context.  If not, see <http://www.gnu.org/licenses/>.
 #
+require 'itamae'
 
 module Itamae
   module Plugin
     module Resource
-      module SecurityContext
+      class SecurityContext < ::Itamae::Resource::Base
         # itamae-plugin-resource-security_context version
         VERSION = "0.1.0"
       end
