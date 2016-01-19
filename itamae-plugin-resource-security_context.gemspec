@@ -7,8 +7,8 @@ require 'itamae/plugin/resource/security_context/version'
 Gem::Specification.new do |gem|
   gem.name          = "itamae-plugin-resource-security_context"
   gem.version       = Itamae::Plugin::Resource::SecurityContext::VERSION
-  gem.summary       = %q{TODO: Summary}
-  gem.description   = %q{TODO: Description}
+  gem.summary       = %q{Itamae SELinux security context resource plugin}
+  gem.description   = %q{Itamae resource plugin to handle with SELinux security context.}
   gem.license       = "LGPL"
   gem.authors       = ["KITAITI Makoto"]
   gem.email         = "KitaitiMakoto@gmail.com"

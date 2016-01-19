@@ -6,7 +6,7 @@
 
 ## Description
 
-TODO: Description
+Itamae resource plugin to handle with SELinux security context.
 
 ## Features
 
