@@ -1,20 +1,24 @@
-# itamae-plugin-resource-security_context
+itamae-plugin-resource-security_context
+=======================================
 
 * [Homepage](https://rubygems.org/gems/itamae-plugin-resource-security_context)
 * [Documentation](http://rubydoc.info/gems/itamae-plugin-resource-security_context/frames)
 * [Email](mailto:KitaitiMakoto at gmail.com)
 
-## Description
+Description
+-----------
 
 [Itamae][] resource plugin to handle with SELinux security context.
 
-## Features
+Features
+--------
 
 * Restoring security context
 
 Currently, only the feature above is supported.
 
-## Examples
+Examples
+--------
 
 At first, load this plugin.
 
@@ -61,15 +65,18 @@ As noted earlier, the default action of `security_context` is `:nothing`, so you
       notifies :restore, 'security_context[/etc/nginx/nginx.conf]'
     end
 
-## Requirements
+Requirements
+------------
 
 * [Itamae][]
 
-## Install
+Install
+-------
 
     $ gem install itamae-plugin-resource-security_context
 
-## Copyright
+Copyright
+---------
 
 Copyright (c) 2016 KITAITI Makoto
 
