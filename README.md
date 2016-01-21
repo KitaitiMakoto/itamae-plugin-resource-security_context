@@ -30,7 +30,7 @@ At first, load this plugin.
       action :restore
     end
 
-Note that default action of `security_context` is `:nothing`, you need to write `action` directory when you want to restore security context.
+Note that default action of `security_context` is `:nothing`, so you need to write `action` directly when you want to restore security context.
 
 You can also restore context recursively:
 
